@@ -1,0 +1,25 @@
+#puzzle {
+    width: 450px;
+}
+
+#puzzle input {
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px gray solid;
+    text-align: center;
+}
+.gray-fields {
+    background-color: #ccc4c4;
+}
+
+@media (max-width: 500px) {
+    #puzzle {
+        width: 270px;
+    }
+
+    #puzzle input {
+        width: 30px;
+        height: 30px;
+    }
+}
